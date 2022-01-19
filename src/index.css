@@ -1,13 +1,62 @@
-body {
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  color: #393c41;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body {
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: bisque;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+a {
+  text-decoration: none;
+}
+
+.container {
+  min-height: 60px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.Menu a {
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0 10px;
+  flax-wrap: no-wrap;
+}
+
+.RightMenu a {
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 10px;
+  flax-wrap: no-wrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Logo {
+  width: 60px;
+  height: 60px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
