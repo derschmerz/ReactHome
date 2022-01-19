@@ -60,3 +60,7 @@ footer {
   position: absolute;
   bottom: 0;
 }
+
+.product_counter {
+  margin-bottom: 50px;
+}
