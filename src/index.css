@@ -1,15 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
-  font-family: "Rubik", sans-serif;
-  color: #393c41;
+  font-family: "Play", sans-serif;
+  color: #fffafa;
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  background-color: bisque;
 }
 
 a {
@@ -63,4 +65,10 @@ footer {
 
 .product_counter {
   margin-bottom: 50px;
+}
+
+header {
+  background-image: url("greenback.png");
+  height: 75px;
+  background-size: cover;
 }
