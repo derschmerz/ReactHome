@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -54,17 +54,18 @@ a {
 }
 
 .Logo {
-  width: 60px;
+  width: 250px;
   height: 60px;
+  position: fixed;
+  top: 5px;
+  left: 0;
+  right: 0;
+  
 }
 
 footer {
   position: absolute;
   bottom: 0;
-}
-
-.product_counter {
-  margin-bottom: 50px;
 }
 
 header {

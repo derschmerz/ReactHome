@@ -5,7 +5,11 @@ const Header: React.FC = () => {
     <header>
       <div className="container">
         <a href="#0">
-          <img className="Logo" src="/images/video-game.png" alt="" />
+          <img
+            className="Logo"
+            src="/Images/Calich Games-logos_transparent2.png"
+            alt=""
+          />
         </a>
         <div className="Menu">
           <a href="#1">Games</a>
