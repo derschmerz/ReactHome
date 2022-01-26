@@ -19,7 +19,7 @@ const Header: React.FC = () => {
         </div>
         <div className="RightMenu">
           <a href="#5">Поддержка</a>
-          <a href="#6">Моя учетная запись</a>
+          <a href="#6">Авторизация</a>
         </div>
       </div>
     </header>

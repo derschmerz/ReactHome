@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import Header from "./Components/Header";
-import Login from "./Components/Login";
+import Home from "./Components/Home";
 import Footer from "./Components/Footer";
 
 const App = () => {
   return (
     <div className="App">
       <Header />
-      <Login />
+      <Home />
       <Footer />
     </div>
   );

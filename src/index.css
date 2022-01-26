@@ -12,6 +12,7 @@ body {
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+  /* background-image: url("/public/images/backbody.jpg"); */
 }
 
 a {
@@ -27,6 +28,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
+  position: relative;
 }
 
 .Menu {
@@ -39,14 +41,14 @@ a {
   font-weight: 600;
   text-transform: uppercase;
   padding: 0 10px;
-  flax-wrap: no-wrap;
+  flex-wrap: no-wrap;
 }
 
 .RightMenu a {
   font-weight: 600;
   text-transform: uppercase;
   margin-right: 10px;
-  flax-wrap: no-wrap;
+  flex-wrap: no-wrap;
 }
 
 a {
@@ -56,20 +58,23 @@ a {
 .Logo {
   width: 250px;
   height: 60px;
-  position: fixed;
   top: 5px;
   left: 0;
   right: 0;
-  
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
 }
 
 header {
   background-image: url("greenback.png");
-  height: 75px;
-  background-size: cover;
+   background-size: 100% 70px;
+    color: #fff;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,.35));
+    padding: 0 0 0 40px;
+    font-family: din-probold,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+    height: 70px;
+  filter: drop-shadow(0 10px 10px rgba(0,0,0,.85));
 }
+   
