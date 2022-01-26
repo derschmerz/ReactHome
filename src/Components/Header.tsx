@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <a href="#0">
           <img
             className="Logo"
-            src="/Images/Calich Games-logos_transparent2.png"
+            src="/images/Calich Games-logos_transparent2.png"
             alt=""
           />
         </a>

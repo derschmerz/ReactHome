@@ -7,28 +7,28 @@ const TopGames = () => {
       <h4>Recomended for You</h4>
       <Content>
         <Wrap>
-          <img src="/Images/game-card_diablo3_enUS.jpeg" alt="" />
+          <img src="/images/game-card_diablo3_enUS.jpeg" alt="" />
         </Wrap>
         <Wrap>
-          <img src="/Images/game-card_diablo4_enUS.jpeg" alt="" />
+          <img src="/images/game-card_diablo4_enUS.jpeg" alt="" />
         </Wrap>
         <Wrap>
-          <img src="/Images/game-card_hearthstone_enUS.jpeg" alt="" />
+          <img src="/images/game-card_hearthstone_enUS.jpeg" alt="" />
         </Wrap>
         <Wrap>
-          <img src="/Images/game-card_heroes_enUS.jpeg" alt="" />
+          <img src="/images/game-card_heroes_enUS.jpeg" alt="" />
         </Wrap>
         <Wrap>
-          <img src="/Images/game-card_overwatch_enUS.jpeg" alt="" />
+          <img src="/images/game-card_overwatch_enUS.jpeg" alt="" />
         </Wrap>
         <Wrap>
-          <img src="/Images/game-card_starcraft2_enUS.jpeg" alt="" />
+          <img src="/images/game-card_starcraft2_enUS.jpeg" alt="" />
         </Wrap>
         <Wrap>
-          <img src="/Images/game-card_wow_enUS.jpeg" alt="" />
+          <img src="/images/game-card_wow_enUS.jpeg" alt="" />
         </Wrap>
         <Wrap>
-          <img src="/Images/game-card-wc3-en-us.jpeg" alt="" />
+          <img src="/images/game-card-wc3-en-us.jpeg" alt="" />
         </Wrap>
       </Content>
     </Container>
