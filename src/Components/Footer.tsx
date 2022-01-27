@@ -28,7 +28,10 @@ const Footer = () => {
           <img src="/images/discord_social.png" alt="#17" />
         </DiscordButton>
       </PromoWrapper>
-      <GlobalFooter />
+      <GlobalFooter>
+        © 2022 Copyright:
+        <a href="#1">Calichgaming.com</a>
+      </GlobalFooter>
     </Container>
   );
 };
@@ -48,7 +51,9 @@ const PromoWrapper = styled.div`
   justify-content: center;
 `;
 
-const GlobalFooter = styled.div``;
+const GlobalFooter = styled.div`
+  background-color: rgba(0, 0, 0, 0.2);
+`;
 
 const TwitterButton = styled.button`
   margin-right: 16px;
