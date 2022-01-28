@@ -1,4 +1,3 @@
-import { Facebook } from "@mui/icons-material";
 import React from "react";
 import styled from "styled-components";
 
@@ -29,8 +28,13 @@ const Footer = () => {
         </DiscordButton>
       </PromoWrapper>
       <GlobalFooter>
-        © 2022 Copyright:
-        <a href="#1">Calichgaming.com</a>
+        <SubTitle>© 2022 Copyright:Calichgaming.com</SubTitle>
+        <Description>
+          <h3>Footer Content</h3> Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Iste atque ea quis molestias. Fugiat pariatur maxime
+          quis culpa corporis vitae repudiandae aliquam voluptatem veniam, est
+          atque cumque eum delectus sint!
+        </Description>
       </GlobalFooter>
     </Container>
   );
@@ -39,9 +43,21 @@ const Footer = () => {
 export default Footer;
 
 const Container = styled.div`
-  min-height: calc(100vh - 70px);
-  padding: 0;
+  min-height: 70px;
   position: relative;
+  &:before {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    content: "";
+    top: -550px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("/images/nord.png");
+    z-index: -1;
+  }
 `;
 
 const PromoWrapper = styled.div`
@@ -52,22 +68,23 @@ const PromoWrapper = styled.div`
 `;
 
 const GlobalFooter = styled.div`
-  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-top: 10px;
 `;
 
 const TwitterButton = styled.button`
   margin-right: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  align-itens: center;
-  justify-content: center;
   border-radius: 50%;
   border: none;
   background-color: black;
   cursor: pointer;
+
+  img {
+    width: 44px;
+    height: 44px;
+  }
 `;
 
 const FacebookButton = styled(TwitterButton)``;
@@ -81,3 +98,17 @@ const InstagramButton = styled(TwitterButton)``;
 const VkButton = styled(TwitterButton)``;
 
 const DiscordButton = styled(TwitterButton)``;
+
+const SubTitle = styled.div`
+  color: rgba(249, 249, 249);
+  font-size: 15px;
+  min-height: 20px;
+  margin-top: 26px;
+`;
+const Description = styled.div`
+  line-height: 1.4;
+  font-size: 15px;
+  margin-top: 16px;
+  color: rgb(249, 249, 249);
+  }
+`;

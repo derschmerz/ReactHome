@@ -12,7 +12,7 @@ const Home = () => {
 
 const Container = styled.div`
   position: relative;
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 70px);
   &:before {
     background-position: top;
     background-size: cover;
